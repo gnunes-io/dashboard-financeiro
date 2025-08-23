@@ -1,8 +1,10 @@
-# 📊 Relatório Financeiro - Dash Descritivo para Análise do Exercício
+# 📊 Relatório Financeiro - Descritivo da Análise do Exercício
 
 ## 📌 Descrição
 Este relatório em **Power BI** apresenta uma análise **financeira consolidada**, com foco no acompanhamento de **Receita, Custo, Despesas e Lucro**.  
-O painel foi desenvolvido para fornecer **insights estratégicos** à **Diretoria Financeira**, apoiando o monitoramento do desempenho econômico e a priorização de ações para eficiência e rentabilidade.
+O painel foi desenvolvido para fornecer **insights estratégicos** à **Equipe Financeira**. 
+- Consulte [pipeline-financeiro](./pipeline-financeiro) para saber mais sobre a automação do ETL.
+- Ou, consulte [previsao-custos](./previsao-custos) para saber mais sobre a ferramenta de provisionamento de fluxo de caixa (Machine Learning - Análise Preditiva).
 
 ## 🚀 Objetivos do Relatório
 - Monitorar a **receita mensal** comparando **Ano Atual vs Ano Anterior (YoY)**.
@@ -16,12 +18,12 @@ O painel foi desenvolvido para fornecer **insights estratégicos** à **Diretori
 ![Dashboard Financeiro](./dash-financeiro.PNG)
 
 ## 🗂️ Fontes de Dados
-- **SQL Server** → Base contábil/financeira, *views* para ETL e integração.
-- **Planilhas Excel (.xlsx)** → Custos operacionais e despesas administrativas.
-- **Arquivos CSV (.csv)** → Complemento de dados transacionais.
+- **Sistema Online** → Via API REST.
+- **Supabase - PostgreSQL** → Data Warehouse de dados transformados.
 
 ## 🔄 Atualização dos Dados
-- Frequência: **Diária** (agendada no **Power BI Service**).
+- Atualização diária do banco de dados com **Python e Windows Task Scheduler**
+- Atualização diária do dashboard com **Power BI Services**.
 
 ## 📈 Funcionalidades
 - **Comparação temporal**: Ano atual vs ano anterior por mês (com variação %).
@@ -44,9 +46,9 @@ O painel foi desenvolvido para fornecer **insights estratégicos** à **Diretori
 - **Pagamento por Lançamento** (categorias como custo e despesa).
 
 ## 📌 Tecnologias Utilizadas
-- **Power BI** (ETL, modelagem, DAX, visualização).
-- **SQL Server** (armazenamento, *views* e consultas).
-- **Excel / CSV** (dados auxiliares e cadastros).
+- **Python** (Extração API, ETL e conexão com data warehouse).
+- **PostgreSQL** (Armazenamento e consultas).
+- **Power BI** (Modelagem, DAX, Visualização).
 
 ## 📂 Estrutura do Relatório
 1. **Visão Geral** → KPIs principais (Receita, Custo, Despesa, Lucro) e variações.
