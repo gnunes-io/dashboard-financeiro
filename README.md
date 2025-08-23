@@ -2,7 +2,7 @@
 
 ## 📌 Descrição
 Este relatório em **Power BI** apresenta uma análise **financeira consolidada**, com foco no acompanhamento de **Receita, Custo, Despesas e Lucro**.  
-O painel foi desenvolvido para fornecer **insights estratégicos** à **Equipe Financeira**. 
+O painel foi desenvolvido para fornecer **insights estratégicos** à **Equipe Financeira**.
 - Consulte [pipeline-financeiro](./pipeline-financeiro) para saber mais sobre a automação do ETL.
 - Ou, consulte [previsao-custos](./previsao-custos) para saber mais sobre a ferramenta de provisionamento de fluxo de caixa (Machine Learning - Análise Preditiva).
 
@@ -38,21 +38,7 @@ O painel foi desenvolvido para fornecer **insights estratégicos** à **Equipe F
 - **Gerência Administrativa/Controladoria** – gestão de custos e despesas.
 - **Analistas Financeiros** – detalhamento de pagamentos e clientes.
 
-## 🖼️ Exemplos de Visualizações
-- **Receita Ano Anterior vs Atual por mês** (barras com variação percentual).
-- **Receita por Conta** (barra empilhada: operacional x não operacional).
-- **Receita por Cliente** (ranking dos maiores contribuintes).
-- **Pagamento por Tipo** (fixo x variável, % e valores).
-- **Pagamento por Lançamento** (categorias como custo e despesa).
-
 ## 📌 Tecnologias Utilizadas
 - **Python** (Extração API, ETL e conexão com data warehouse).
 - **PostgreSQL** (Armazenamento e consultas).
 - **Power BI** (Modelagem, DAX, Visualização).
-
-## 📂 Estrutura do Relatório
-1. **Visão Geral** → KPIs principais (Receita, Custo, Despesa, Lucro) e variações.
-2. **Receita Ano Atual vs Anterior** → Comparativo mensal (YoY).
-3. **Receita por Conta e Cliente** → Composição e concentração.
-4. **Pagamentos** → Distribuição por tipo (fixo/variável) e por lançamento.
-5. **Indicadores Estratégicos** → Percentuais e relações para tomada de decisão.
