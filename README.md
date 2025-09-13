@@ -3,8 +3,6 @@
 ## 📌 Descrição
 Este relatório em **Power BI** apresenta uma análise **financeira consolidada**, com foco no acompanhamento de **Receita, Custo, Despesas e Lucro**.  
 O painel foi desenvolvido para fornecer **insights estratégicos** à **Equipe Financeira**.
-- Consulte [pipeline-financeiro](./pipeline-financeiro) para saber mais sobre a automação do ETL.
-- Ou, consulte [previsao-custos](./previsao-custos) para saber mais sobre a ferramenta de provisionamento de fluxo de caixa (Machine Learning - Análise Preditiva).
 
 ## 🚀 Objetivos do Relatório
 - Monitorar a **receita mensal** comparando **Ano Atual vs Ano Anterior (YoY)**.
